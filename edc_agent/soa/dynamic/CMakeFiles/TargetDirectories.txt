@@ -1,0 +1,4 @@
+/home/project/sources/dds/soa/dynamic/CMakeFiles/rebuild_cache.dir
+/home/project/sources/dds/soa/dynamic/CMakeFiles/edit_cache.dir
+/home/project/sources/dds/soa/dynamic/CMakeFiles/server.dir
+/home/project/sources/dds/soa/dynamic/CMakeFiles/client.dir

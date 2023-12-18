@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AutoCoreDDS>
+  <Domain id="1">
+    <Discovery>
+      <ExternalDomainId>0</ExternalDomainId> 
+      <SPDPMulticastAddress>239.255.0.1</SPDPMulticastAddress>  
+      <DefaultMulticastAddress>239.255.0.3</DefaultMulticastAddress>  
+    </Discovery>
+    <General>
+	  <AllowMulticast>true</AllowMulticast>
+      <RedundantNetworking>true</RedundantNetworking> 
+      <Interfaces>	
+        <NetworkInterface address="127.0.0.1"/>   <!-- Loopback address -->
+        <NetworkInterface address="192.168.152.128"/>   <!-- Local Network address -->
+      </Interfaces>
+    </General>
+  </Domain>
+</AutoCoreDDS>

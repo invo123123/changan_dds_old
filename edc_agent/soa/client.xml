@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AutoCoreDDS>
+  <Domain id="0">
+    <Discovery>
+      <Ports>
+        <Base>8400</Base>
+        </Ports>
+      <SPDPMulticastAddress>239.255.0.1</SPDPMulticastAddress>  
+      <DefaultMulticastAddress>239.255.0.2</DefaultMulticastAddress>  
+    </Discovery>
+    <General>
+	  <AllowMulticast>true</AllowMulticast>
+      <Interfaces>
+        <NetworkInterface address="172.16.6.25"/>   <!-- Local Network address -->
+      </Interfaces>
+    </General>
+  </Domain>
+  <Domain id="1">
+    <Discovery>
+	<ExternalDomainId>0</ExternalDomainId>
+      <SPDPMulticastAddress>239.255.0.1</SPDPMulticastAddress>  
+      <DefaultMulticastAddress>239.255.0.3</DefaultMulticastAddress>  
+    </Discovery>
+     <General>
+      <AllowMulticast>true</AllowMulticast>
+      <Interfaces>
+        <NetworkInterface address="172.16.6.25"/>   <!-- Local Network address -->
+      </Interfaces>
+    </General>
+  </Domain>
+</AutoCoreDDS>
